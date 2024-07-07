@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100vh;
+    width: 100%;
+}
+.h-100 {
+    height: 100vh;
+}
+
+.bg-primary-purple {
+    background: #4d44bf;
+}
+
+.logo-img {
+    height: 50px;
+}
+
+.nav-height{
+    height: 80px;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
