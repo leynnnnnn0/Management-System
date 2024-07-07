@@ -3,7 +3,9 @@ require('views/partials/header.php');
 require('views/partials/sidebar.php');
 require('views/partials/heading.php');
 ?>
-
+<div class="flex justify-end">
+    <a href="/schoolmanagementsystem/index.php/teachers/add" class="cursor-pointer bg-indigo-500 text-white font-semibold px-4 py-2 rounded-2xl hover:opacity-75"><i class="bi bi-plus-circle"></i> Add New Teacher</a>
+</div>
 <div class="flex mt-5 gap-8">
     <?php foreach ($teachers as $teacher) : ?>
         <div class="flex flex-col w-48 bg-white h-52 rounded-lg p-3 items-center">
